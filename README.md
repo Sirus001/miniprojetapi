@@ -1,10 +1,10 @@
-# flask-bibliotheque2
+# miniprojetapi
 
 
 
-# Bibliotheque
+# miniprojetapi
 
-Bibliotheque est une api permettant d'ajouter,de supprimer,de modifier,d'obtenir la liste des categories et des livres disponible
+miniprojetapi est une api permettant d'ajouter,de supprimer,de modifier,d'obtenir la liste des categories et des livres disponible
 
 ## Categorie liste [/categories/]
 
