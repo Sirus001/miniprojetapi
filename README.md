@@ -1,7 +1,12 @@
-# miniprojetapi
-app est une api permettant d'ajouter,de supprimer,de modifier,d'obtenir la liste des categories et des livres disponible
+# flask-bibliotheque2
 
-## Categorie liste [/categories]
+
+
+# Bibliotheque
+
+Bibliotheque est une api permettant d'ajouter,de supprimer,de modifier,d'obtenir la liste des categories et des livres disponible
+
+## Categorie liste [/categories/]
 
 ### liste toutes les categories [GET]
 
@@ -46,7 +51,7 @@ app est une api permettant d'ajouter,de supprimer,de modifier,d'obtenir la liste
 
 
     
-##  Categorie affichage des livres [/categorie/id/lives/]
+##  Categorie affichage des livres [/categorie/id/livres/]
 
 ### Affiche les livres d' une  categories donnee [GET]
 
@@ -66,7 +71,7 @@ app est une api permettant d'ajouter,de supprimer,de modifier,d'obtenir la liste
     },...]
     }
 
-##  Categorie mise a jour du libelle [/categorie/id]
+##  Categorie mise a jour du libelle [/categorieUpdate/]
 
 ### Mettre a jour le libelle d' une  categories donnee [PUT]
 
@@ -92,7 +97,7 @@ app est une api permettant d'ajouter,de supprimer,de modifier,d'obtenir la liste
 #########################
 
 
-## Livre liste [/livres]
+## Livre liste [/livres/]
 
 ### liste toutes les livres [GET]
 
@@ -151,7 +156,7 @@ app est une api permettant d'ajouter,de supprimer,de modifier,d'obtenir la liste
 
 
     
-##  Mise a jour d'un livre [live/id]
+##  Mise a jour d'un livre [/livreUpdate/]
 
 ### Mettre a jour information d'un livre donnee [PUT]
 
@@ -162,3 +167,5 @@ app est une api permettant d'ajouter,de supprimer,de modifier,d'obtenir la liste
     "success":"OK",
     "message":"livre mise a jour"
     }
+
+
